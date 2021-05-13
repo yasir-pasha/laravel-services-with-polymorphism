@@ -5,9 +5,9 @@ This project contains Laravel Services examples. There are two services for Paym
 ### **How to Use**
 1. **Payment Gateway**
  
-   The Payment Gateway service is used by providing the`gateway` parameter to `PaymentGatewayService`. The `gateway` parameter value should be `PostPay` or `PayFort`otherwise exception is thrown. Currently, these two payment gateways are implemented **PostPay** and **PayFort**. The service initializes the payment gateway that is provided in the `$request`.
+   The Payment Gateway service is used by providing  the`gateway` parameter to `PaymentGatewayService`. The `gateway` parameter value should be `PostPay` or `PayFort`otherwise exception is thrown. Currently, these two payment gateways are implemented **PostPay** and **PayFort**. The service initializes the payment gateway that is provided in the `$request`.
 
-   **File structure**: There is one file associated for each service(`Services/PaymentGatewayService.php` for PaymentGateWay and `ProductFeedService.php` for Product Feed). This service file initialize the main service object(PaymentGateway) by provided gateway. There is a folder associated with each payment gateway inside `Services/PaymentGateway`. The Class `Services/PaymentGateway/PaymentGateway.php` is used to process the request by creating the provided gateway object.
+   **File structure**: There is one file associated with each service(`Services/PaymentGatewayService.php` for PaymentGateWay and `ProductFeedService.php` for Product Feed). This service file initializes the main service object(`PaymentGateway`) by provided gateway parameter. There is a folder associated with each payment gateway inside `Services/PaymentGateway`. The Class `Services/PaymentGateway/PaymentGateway.php` is used to process the request by creating the provided gateway object.
 
    #### **Example**
         $payment_gateway_service = new PaymentGatewayService($request->gateway);
