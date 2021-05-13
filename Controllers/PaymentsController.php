@@ -67,4 +67,17 @@
         }
       }
     }
+    public function confirmOrder(Request $request)
+    {
+      try {
+        $payment_gateway_service = new PaymentGatewayService('PostPay');
+        $payment_gateway         = $payment_gateway_service->initialize($request);
+        $result = $payment_gateway->confirmOrder($request);
+        return redirect()->away(env('FRONT_URL').'/thank-you?order_id=' . $result['order_id']);
+        //return Helper::successReponse('Payment has been made successfully, Thanks 🙂');
+      
+      } catch (\Exception $e) {
+        throw new APIErrorException($e->getMessage());
+      }
+    }
   }
