@@ -1,0 +1,1464 @@
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1120413145
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://dev.tunerstop.com/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 0224bde85eb30a22058c9ed42b3aa1e87cbe8b7bb5e17c27abc6d354c1e4d193
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1794214977
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => c157f5372b9870f0aa1b7d3cf6d98d72c6ad19cff8d1d91a974c93ab6fb3ee77
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 536086091
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 471d10d1bc26e487a63ceb6b61b03886e7f7e39736a7a6cdef34df634431a382
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1645773235
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => efa4ce419f19e9d8ec6ba0fb78fd83b69cee445b3596e80533c916897b6b7d94
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 915157391
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => b117465c8551e5a9ea240854a319bffb159da3a31dfbcb1f8923d4de975a6e7a
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 583408419
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 261daef7f4ffc819184b5429a5e61da27b8fe70d365b408ee2d13314c8952890
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1349482715
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 0243b41e6fdebd0845966040b2b21530a5d6c44a562313bec4e99c77af280ce7
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 819387488
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => b9e53e201dda00e98fae53ffe0e6c19a2d45680c2744f581f5b70c0c8637ba33
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 2038484804
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => e3518f475c37786b72785af0f3f8d76b2f038dca6dd2b2783a550deb101d0ccc
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1521737745
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => fde4c5813dd89138e214b108771cdb206b05e08939b421f9d271152da3b563b3
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1501785086
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 142a0a06145e69ae1e01774550e605f09546717ccb73da224e5007c9a795e323
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 2108286362
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => f1ba2e30f5bbba9d82fccf21f54f5cc0e05e195db08517cdeaefdd977aff454e
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 475125438
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 9ec273f89a42507bd37fd304fdd4e5ca5ed4a8a1bc34f5ec1e5311a0ecf61083
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 2083724897
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 596ede2e219a480a7cf040f18d28281c2ddcc243508c4ec256e0140ca5c5f17a
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 2089216655
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 1a9b690fb97af999b1b80bff1934b0403d5f9e81a3f9c09c6932aaf2a81a0c9d
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 385498005
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 8c11f5f70a85df77ba64a2a9ccf17fa92f62805d40b76592b021e3161ddd3062
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 616685123
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 5236e4c07df4c40726c4b76fb899209e12ee8f8836eebb576fd8335310a8b319
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 933292772
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 89186f1cb922f451ea2020ac0bf7aef78c6a629a80cc6c22bab89e97c44253c0
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 331864880
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 5dc0c4ad1c55dd117e1db246fa5fa31e71af29790fdc21edc4195b6be297868b
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 2058988323
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 71bc1a51f6e1c6007cf89077ba4ee6b608658f52bd8b90aa062bef2e80eb6293
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 458193740
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => e7b816f9de7611a9fa41b09effaeab55db52be85de3044b764bcd74692410f79
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 821399479
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 667f3ab27d176d966b5d7d54c9f3c5aee628cb06eaf5644a966b9963bff91a2e
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 514039318
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 971163c86b907fa368cb1363ea688fcd6c575a04bd0fc3f36fdd6b20bc394a2d
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 964409097
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 2d02c667ff08308d3392c221d46da69c37cae6dd8c1bb7adadef14a23771fd47
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 2093957904
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => cd4c13b82d00d12d2fc31a7334ab48c088faf2b363e0ec03a7dabe3224c0af55
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 764108653
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 57294004e6aed709f3dfa619e5e54034925f45f867befec9077e55d4614b54eb
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1206017504
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 4804f98d3d6c2c792002923d2dd619b91aaebbe4f0851f6e4ba230fa183f95b5
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1069929897
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => d0d42c0dec6bcceba3d3e47be21226a572b33c2fd922423f16d3e5b9605dbf2c
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1959748787
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 3064f2ba25cc1c3a8ffa312f954cfd8625d75bf9b9262b5d5e01b99edf6337a6
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1188863111
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => ca54feaa514130f7e1c7b2443b93791f8c9745650ed800decfc5a511bcb3b496
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 456230709
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 7cd8246ecf7e305a3fb00b438e5c804cc77789c36c98607226399fa349dd6f3a
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1360864120
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 45e8172959e632d26520e3c6f6b1f7016152351f42a77d373a12fc432d2849f9
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 14824241
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => d4983abf7dbdd194f691252809aa3212028452dd78530db905713933a2c8e472
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1915041229
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 5bafd6f51a1253c2a7ba8b73faa541420d6ab4391b776b399cbc6b9a6c458d8b
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1768091016
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => c5a3f03ae41db53c1c67ea109e483cc06f623d7ef928a9d9e3cee903b393103a
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 908664039
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 8fe9102bbe7425eb76bd3123e6dd9e522ab34b8354c49f7805298e1636b7a194
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 935515702
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 713be94145e78890bb1e6135a239a83ea41ea0890b6b87d4cc1245365ba9c364
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1196480688
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 3abf11d2baffbdb48bb705c1833eab0c60dae53ead276d81a9c0e386feae6262
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1522755997
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 4ee7e4eb7c7cff8c5a79344bb5875b9f9f5f72c5fefe836998c328a60cac42f5
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1106721170
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => e338dc1ea80c87d98fbd3f2279d1759404fd5b0d873aa02d2051fdbea00d883e
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 330605094
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => fecd8c5645685e952a1e558c3e256aaf9192e74790e241a33196984d24bfe80d
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 782203812
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 6b107e4f95db8c9562db2034995dad0ad0b6305dd32ac83f8a31d577045e1000
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1296337826
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 798a36bfabfc43ec207bfbf941f16d28204235a187098ef6ab6fe7d6d1e3f37a
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 2122650089
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 64fc992b74039be451771ec108167a57f5ee4feaedc855cf04752c2f27a51124
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1029873641
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 97207ae9f8b038da612d47235f97f885ff5032fa0ffa4a2e2fa6a75e1d96a62b
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1592410895
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 4707dfa867934b26aa54d3e8b232a12766acd6ac60216393ed4e6c7e960e16ba
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 940533369
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 7091f43e67cf94f6f35626c068b1d7201eebbbf95e233ce680b99b3cc65941ad
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1769862050
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 7101dd2034bc8ddcc819784206ce5692923889025f8866f726c3c5417f351586
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 990159084
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 2b1443de2173482cb65a9a71ca7788503dbbdd8b99d0437fc2e0e7e35db12fb1
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1364053242
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => da5de3b8a4f126d3ea8af12bd0441249f65a260e3ea4b0d9487d893d1e48e5fc
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 931668011
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => e5cc333765173b71239507b1f5a362d2671a9570253d9e739bb1658550a0026d
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => USD
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 990553734
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 1e6af58421f2fcafbc3d09472e588e73a5cef87731901dea2ae9e5ef77c30d81
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1254538554
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 83980cb785f7647b85dd5a88d3846ca86e70d3bf174bcbb7d9b5bd6c1f0613ec
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1714779466
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 6c509354a7e296c06af3b9fd4125ff8ec23e4cc45fe58082836b6abdd3b48006
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1482711116
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 23a9527db4e01cbfbaa4f1420c03befe23cb44a6fd3f66cda2734b00b9aeefdd
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1336268492
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => aff53d30f37a693db09e420c4294fc8bdd65a670ac00c6d02398fe5214616655
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1877899877
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 6154087a8cfbddca707d11b75f4ef0d3accc6e898e622c7dccb43d8e73b4d453
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 538471693
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 338ab88ded9d4650def3feb1a268433c1a07031d6ab049e56a2d082c876c0f2d
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 658053523
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 8f3b7cdbfcd2d2904f0d0c182a6ab847e9bcede9ec7007ffbec9363469a06331
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 78615797
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => caf155713c29e7450a8bd317c8cef0bfcb68db753f259a4fa5c172a4838ae590
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1434573806
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 446034632a2cb0cf344743efece3cfcd8af2c169d15c734254e5b31a7378380d
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1359249854
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 62774dde45045f8c1deefe8aaf2633fe34f8e25d3a1df552d8744ed4b3e868f0
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 587475094
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 3a91c7356df0e3b08f416db1a53226d5af0338cae85cf62be5d1f532e7e5e98b
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 937320903
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 53848641828ef894d3537a85dc60a76d23c25d9ab1dba176926bb2f41401d6e5
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 365478309
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => d342680fab337cf5bb9ae5f9c7b59c09e4db300a48f9a28484caa9102fae824b
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 201278310
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 828ad478b0efd4f5991692bd83f581dd61aead88a11674dece431ef5d47da639
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1595048815
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 569fc589cb695f8b8a1531a2cebc71594b24f13586a6c94e62821bc315a450fc
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1868982809
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => c148080ac89f21513fcad8302d0f425feb7bb5608f531fad4bb5f583a8e23cef
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1577996111
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => a395673234d1f7bb7435d3575e63f032c44c1b1147126a174f669f9c4a0bfa45
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 800573008
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 1e35b7df94a09a544de7cbdd033835cb1cfaed73416ac224a53d14e6a75d457f
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1387813978
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => c8404db43739f5b820398af3760d5d439f001028159e9b7d3225a0a6340a9ba6
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 10000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 403948863
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 0f9b30b41fb67e486d1b9b9a08692bf7a3b52b58517df8b8fb8fafccb61cac9e
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 420000
+    [currency] => AED
+    [cart_items] => [{"sub_total":4200,"cart_items":[{"item_description":"Brand: Vossen, ModelCV10","item_name":"CV10","item_image":"http:\/\/localhost:8000\/storage\/products\/cv10-hero-satinblack-angle.jpg","item_price":5260,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2000,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2200,"item_quantity":2}]}]
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 117824971
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => d8588826de0661958c4bc05daba2803ca0e082f8f78da40311b6aa5b992d1359
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 420000
+    [currency] => AED
+    [cart_items] => [{"sub_total":4200,"cart_items":[{"item_description":"Brand: Vossen, ModelCV10","item_name":"CV10","item_image":"http:\/\/localhost:8000\/storage\/products\/cv10-hero-satinblack-angle.jpg","item_price":5260,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2000,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2200,"item_quantity":2}]}]
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 506124010
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 702f5dc20d5fca371fc61200512ebb264fd1d361128ee9e7a6f4047585efa05d
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 420000
+    [currency] => AED
+    [cart_items] => {"sub_total":4200,"cart_items":[{"item_description":"Brand: Vossen, ModelCV10","item_name":"CV10","item_image":"http:\/\/localhost:8000\/storage\/products\/cv10-hero-satinblack-angle.jpg","item_price":5260,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2000,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2200,"item_quantity":2}]}
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 130201448
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => dc748f909d84a2d5e0b3a3208f50b40f3ed140c9041c3bb6052deb2ae25d0486
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 420000
+    [currency] => AED
+    [cart_items] => {"sub_total":4200,"cart_items":[{"item_description":"Brand: Vossen, ModelCV10","item_name":"CV10","item_image":"http:\/\/localhost:8000\/storage\/products\/cv10-hero-satinblack-angle.jpg","item_price":5260,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2000,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2200,"item_quantity":2}]}
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 270572920
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:8000/payfort-php-sdk/route.php?r=processResponse
+    [signature] => 64a223ff5d2591137b04031247bbfcacabdcf3d3fac6cd30c06d93102365b5ad
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 420000
+    [currency] => AED
+    [cart_items] => {"sub_total":4200,"cart_items":[{"item_description":"Brand: Vossen, ModelCV10","item_name":"CV10","item_image":"http:\/\/localhost:8000\/storage\/products\/cv10-hero-satinblack-angle.jpg","item_price":5260,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2000,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2200,"item_quantity":2}]}
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1697138183
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:4200/process-payment?r=processResponse
+    [signature] => 24539e98182a34e879c0ef90c2422ac7e5393265138119665e3b6232c6754274
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 420000
+    [currency] => AED
+    [cart_items] => {"sub_total":4200,"cart_items":[{"item_description":"Brand: Vossen, ModelCV10","item_name":"CV10","item_image":"http:\/\/localhost:8000\/storage\/products\/cv10-hero-satinblack-angle.jpg","item_price":5260,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2000,"item_quantity":2},{"item_description":"Brand: 3SDM, Model0.05","item_name":"0.05","item_image":"http:\/\/localhost:8000\/storage\/products\/004-s-silver_1024x.jpg","item_price":2200,"item_quantity":2}]}
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 1917010360
+    [customer_email] => test@payfort.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:4200/process-payment?r=processResponse
+    [signature] => 2b215e13294dacba44cecf245639c1d9c1fc6a595495baf936d8ec26dde6b2db
+)
+
+
+========================================================
+
+Fort Redirect Response Parameters 
+Array
+(
+    [r] => processResponse
+)
+
+
+========================================================
+
+Fort Redirect Response Parameters 
+Array
+(
+    [r] => processResponse
+)
+
+
+========================================================
+
+Fort Redirect Response Parameters 
+Array
+(
+    [r] => processResponse
+)
+
+
+========================================================
+
+Fort Redirect Response Parameters 
+Array
+(
+    [r] => processResponse
+)
+
+
+========================================================
+
+Fort Redirect Request Parameters 
+Array
+(
+    [amount] => 420000
+    [currency] => AED
+    [merchant_identifier] => ceef86d7
+    [access_code] => ylNivAEMuHbPT9e7M0Bx
+    [merchant_reference] => 59713107
+    [customer_email] => rajaunleashed@gmail.com
+    [command] => AUTHORIZATION
+    [language] => en
+    [return_url] => http://localhost:4200/process-payment?r=processResponse
+    [signature] => 07760b02101862748528eea9a21276d78814b34d76255a83c48e9841f6cb23f0
+)
+
+
