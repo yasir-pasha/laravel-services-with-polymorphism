@@ -1,5 +1,14 @@
 <?php
-  
+  /*
+    ==============================
+    *   User: Muhammad Yasir
+    *   Email: yasir9398@gmail.com
+    *   Created By: PhpStorm
+    *   Date:   14/10/2020 11:32
+    *   Project: laravel-services
+    *   File:    FacebookProductFeed
+    ================================
+    */
   
   namespace App\Services\ProductFeed\Facebook;
   
@@ -53,7 +62,7 @@
                 $item['availability'] = 'in stock';
                 $item['condition']    = 'new';
                 $item['price']        = $prd->uae_retail_price.' AED';
-                $item['link']         = env('FRONT_URL','https://www.tunerstop.com').'/' . $product->slug . '/' . $prd->sku;
+                $item['link']         = env('FRONT_URL','https://www.laravel-services.com').'/' . $product->slug . '/' . $prd->sku;
                 $images               = json_decode($product->images);
                 $item['image_link']   = url('storage/placeholder.png');
                 if (!is_null($images) && count($images) > 0) {

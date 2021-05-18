@@ -1,5 +1,14 @@
 <?php
-  
+  /*
+    ==============================
+    *   User: Muhammad Yasir
+    *   Email: yasir9398@gmail.com
+    *   Created By: PhpStorm
+    *   Date:   14/10/2020 11:32
+    *   Project: laravel-services
+    *   File:    GoogleProductFeed
+    ================================
+    */
   
   namespace App\Services\ProductFeed\Google;
   
@@ -15,7 +24,7 @@
   
   class GoogleProductFeed implements ProductFeedInterface
   {
-  
+    
     /**
      * @description Generate product feed for Google
      * @param Request $request
@@ -25,7 +34,7 @@
     {
       ini_set('max_execution_time', -1);
       ini_set('memory_limit', -1);
-      GoogleShopping::title('Tunerstop Product feed');
+      GoogleShopping::title('laravel-services Product feed');
       GoogleShopping::link(url('/'));
       GoogleShopping::description('Our Google Shopping Feed');
       GoogleShopping::setIso4217CountryCode('AED');
@@ -44,7 +53,7 @@
               
               $item->availability(Item::INSTOCK);
               $item->condition(Item::BRANDNEW);
-             
+              
               
               $images = json_decode($product->images);
               try {
@@ -56,15 +65,15 @@
                 $e->getMessage();
               }
               $item->mpn($product->id);
-         
+              
               $variants = $product->variants;
               foreach ($variants as $prd) {
                 /** create a variant */
-                $item->link(env('FRONT_URL', 'https://www.tunerstop.com') . '/' . $product->slug . '/' . $prd->sku);
+                $item->link(env('FRONT_URL', 'https://www.laravel-services.com') . '/' . $product->slug . '/' . $prd->sku);
                 $variant = $item->variant();
                 $variant->price($prd->uae_retail_price);
                 $variant->mpn($prd->sku);
-              
+                
                 $variant->size($prd->size);
                 $variant->customWithNamespace('bolt_pattern', $prd->bolt_pattern);
                 if (!is_null($product->model)) {

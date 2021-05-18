@@ -1,11 +1,12 @@
 <?php
   /*
   ==============================
-  *   User: pasha
+  *   User: Muhammad Yasir
+   *  Email:yasir9398@gmail.com
   *   Created By: PhpStorm
   *   Date:   14/04/2021 11:33
-  *   Project: tunerstop  
-  *   File:    PostPay.php
+  *   Project: laravel-services  
+  *   File:    PostPayPayment.php
   ================================
   */
   

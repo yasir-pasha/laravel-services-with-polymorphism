@@ -1,7 +1,7 @@
 <?php
   /**
    * Created by   : yasir
-   * Project Name : tunerstop
+   * Project Name : laravel-services
    * Product Name : PhpStorm
    * Date         : 7/28/20 6:01 PM
    * File Name    : PaypalPaymentGateway.php

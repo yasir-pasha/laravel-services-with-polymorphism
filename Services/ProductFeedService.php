@@ -1,5 +1,14 @@
 <?php
-  
+  /*
+    ==============================
+    *   User: Muhammad Yasir
+    *   Email: yasir9398@gmail.com
+    *   Created By: PhpStorm
+    *   Date:   14/10/2020 11:32
+    *   Project: laravel-services
+    *   File:    ProductFeedService
+    ================================
+    */
   
   namespace App\Services;
   

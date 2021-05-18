@@ -1,12 +1,22 @@
 <?php
-
+  /*
+      ==============================
+      *   User: Muhammad Yasir
+      *   Email: yasir9398@gmail.com
+      *   Created By: PhpStorm
+      *   Date:   14/10/2020 11:32
+      *   Project: laravel-services
+      *   File:    PayFort
+      ================================
+      */
+  
   namespace App\Services\PaymentGateway\PayFort;
-
+  
   use App\Services\PaymentGateway\BasePaymentGateway;
-
+  
   class PayFort extends BasePaymentGateway
   {
-
+    
     public $gatewayHost        = 'https://checkout.payfort.com/';
     public $gatewaySandboxHost = 'https://sbcheckout.payfort.com/';
     public $language           = 'en';
@@ -14,54 +24,54 @@
      * @var string your Merchant Identifier account (mid)
      */
     public $merchantIdentifier;
-
+    
     /**
      * @var string your access code
      */
     public $accessCode;
-
+    
     /**
      * @var string SHA Request passphrase
      */
     public $SHARequestPhrase;
-
+    
     /**
      * @var string SHA Response passphrase
      */
     public $SHAResponsePhrase;
-
+    
     /**
      * @var string SHA Type (Hash Algorith)
      * expected Values ("sha1", "sha256", "sha512")
      */
     public $SHAType = 'sha256';
-
+    
     /**
      * @var string  command
      * expected Values ("AUTHORIZATION", "PURCHASE")
      */
     public $command = 'AUTHORIZATION';
-
+    
     /**
      * @var decimal order amount
      */
     public $amount;
-
+    
     /**
      * @var string order currency
      */
     public $currency = 'AED';
-
+    
     /**
      * @var string item name
      */
     public $itemName;
-
+    
     /**
      * @var string you can change it to your email
      */
     public $customerEmail;
-
+    
     /**
      * @var boolean for live account change it to false
      */
@@ -71,14 +81,14 @@
      * change it if the project is not on root folder.
      */
     public $projectUrlPath = '/payfort-php-sdk';
-
+    
     public $cart_items;
-
+    
     public function __construct()
     {
-
+    
     }
-  
+    
     /**
      * @param $paymentMethod
      * @return false|string
@@ -97,7 +107,7 @@
       $form = $this->getPaymentForm($gatewayUrl, $postData);
       return json_encode(array('form' => $form, 'url' => $gatewayUrl, 'params' => $postData, 'paymentMethod' => $paymentMethod));
     }
-  
+    
     /**
      * @param $paymentMethod
      * @return array
@@ -110,15 +120,15 @@
       } else {
         $gatewayUrl = $this->gatewayHost . 'FortAPI/paymentPage';
       }
-
+      
       if ($paymentMethod == 'sadad') {
         $this->currency = 'SAR';
       }
-
+      
       $postData = array(
         'amount'              => $this->convertFortAmount($this->amount, $this->currency),
         'currency'            => strtoupper($this->currency),
-//        'cart_items'          => $this->cart_items,
+        //        'cart_items'          => $this->cart_items,
         'merchant_identifier' => $this->merchantIdentifier,
         'access_code'         => $this->accessCode,
         'merchant_reference'  => $merchantReference,
@@ -126,10 +136,10 @@
         //'customer_name'         => trim($order_info['b_firstname'].' '.$order_info['b_lastname']),
         'command'             => $this->command,
         'language'            => $this->language,
-//        'return_url'          => $this->getUrl('route.php?r=processResponse'),
+        //        'return_url'          => $this->getUrl('route.php?r=processResponse'),
         'return_url'          => env('WEB_URL') . '/process-payment?r=processResponse',
       );
-
+      
       if ($paymentMethod == 'sadad') {
         $postData['payment_option'] = 'SADAD';
       } elseif ($paymentMethod == 'naps') {
@@ -144,16 +154,16 @@
       $this->log($debugMsg);
       return array('url' => $gatewayUrl, 'params' => $postData);
     }
-
+    
     public function getMerchantPageData($paymentMethod)
     {
       $merchantReference = $this->generateMerchantReference();
-//      $returnUrl         = $this->getUrl('route.php?r=merchantPageReturn');
-      $returnUrl         = env('WEB_URL') . '/process-payment?r=merchantPageReturn';
-
+      //      $returnUrl         = $this->getUrl('route.php?r=merchantPageReturn');
+      $returnUrl = env('WEB_URL') . '/process-payment?r=merchantPageReturn';
+      
       if (isset($_GET['3ds']) && $_GET['3ds'] == 'no') {
-//        $returnUrl = $this->getUrl('route.php?r=merchantPageReturn&3ds=no');
-        $returnUrl         = env('WEB_URL') . '/process-payment?merchantPageReturn&3ds=no';
+        //        $returnUrl = $this->getUrl('route.php?r=merchantPageReturn&3ds=no');
+        $returnUrl = env('WEB_URL') . '/process-payment?merchantPageReturn&3ds=no';
       }
       $iframeParams = array(
         'merchant_identifier' => $this->merchantIdentifier,
@@ -163,16 +173,16 @@
         'language'            => $this->language,
         'return_url'          => $returnUrl,
       );
-
+      
       if ($paymentMethod == 'installments_merchantpage') {
         $iframeParams['currency']     = strtoupper($this->currency);
         $iframeParams['installments'] = 'STANDALONE';
         $iframeParams['amount']       = $this->convertFortAmount($this->amount, $this->currency);
       }
-
-
+      
+      
       $iframeParams['signature'] = $this->calculateSignature($iframeParams, 'request');
-
+      
       if ($this->sandboxMode) {
         $gatewayUrl = $this->gatewaySandboxHost . 'FortAPI/paymentPage';
       } else {
@@ -180,10 +190,10 @@
       }
       $debugMsg = "Fort Merchant Page Request Parameters \n" . print_r($iframeParams, 1);
       $this->log($debugMsg);
-
+      
       return array('url' => $gatewayUrl, 'params' => $iframeParams);
     }
-
+    
     public function getPaymentForm($gatewayUrl, $postData)
     {
       $form = '<form name="payfort_payment_form" id="payfort_payment_form" method="post" action="' . $gatewayUrl . '">';
@@ -193,14 +203,14 @@
       $form .= '<input type="submit" class="btn btn-success payment-btn" id="submit" value="Pay with PayFort">';
       return $form;
     }
-
+    
     public function processResponse()
     {
       $fortParams = array_merge($_GET, $_POST);
-
+      
       $debugMsg = "Fort Redirect Response Parameters \n" . print_r($fortParams, 1);
       $this->log($debugMsg);
-
+      
       $reason        = '';
       $response_code = '';
       $success       = true;
@@ -220,7 +230,7 @@
         $calculatedSignature = $this->calculateSignature($params, 'response');
         $success             = true;
         $reason              = '';
-
+        
         if ($responseSignature != $calculatedSignature) {
           $success  = false;
           $reason   = 'Invalid signature.';
@@ -241,30 +251,30 @@
       if (!$success) {
         $p              = $params;
         $p['error_msg'] = $reason;
-//        $return_url     = $this->getUrl('error.php?' . http_build_query($p));
-          $return_url     = env('WEB_URL') . '/process-request' . http_build_query($p);
-          $result = [
-              'status' => false,
-              'return_url' => $return_url
-          ];
+        //        $return_url     = $this->getUrl('error.php?' . http_build_query($p));
+        $return_url = env('WEB_URL') . '/process-request' . http_build_query($p);
+        $result     = [
+          'status'     => false,
+          'return_url' => $return_url
+        ];
       } else {
-//        $return_url = $this->getUrl('success.php?' . http_build_query($params));
-          $return_url     = env('WEB_URL') . '/process-request' . http_build_query($params);
-          $result = [
-              'status' => true,
-              'return_url' => $return_url
-          ];
+        //        $return_url = $this->getUrl('success.php?' . http_build_query($params));
+        $return_url = env('WEB_URL') . '/process-request' . http_build_query($params);
+        $result     = [
+          'status'     => true,
+          'return_url' => $return_url
+        ];
       }
-
+      
       return $return_url;
-//      echo "<html><body onLoad=\"javascript: window.top.location.href='" . $return_url . "'\"></body></html>";
-//      exit;
+      //      echo "<html><body onLoad=\"javascript: window.top.location.href='" . $return_url . "'\"></body></html>";
+      //      exit;
     }
-
+    
     public function processMerchantPageResponse()
     {
       $fortParams = array_merge($_GET, $_POST);
-
+      
       $debugMsg = "Fort Merchant Page Response Parameters \n" . print_r($fortParams, 1);
       $this->log($debugMsg);
       $reason        = '';
@@ -287,7 +297,7 @@
         $calculatedSignature = $this->calculateSignature($params, 'response');
         $success             = true;
         $reason              = '';
-
+        
         if ($responseSignature != $calculatedSignature) {
           $success  = false;
           $reason   = 'Invalid signature.';
@@ -346,31 +356,31 @@
             }
           }
         }
-
+        
         if (!$success) {
           $p              = $params;
           $p['error_msg'] = $reason;
-//          $return_url     = $this->getUrl('error.php?' . http_build_query($p));
-          $return_url     = env('WEB_URL') . '/process-request' . http_build_query($p);
-          $result = [
-              'status' => false,
-              'return_url' => $return_url
+          //          $return_url     = $this->getUrl('error.php?' . http_build_query($p));
+          $return_url = env('WEB_URL') . '/process-request' . http_build_query($p);
+          $result     = [
+            'status'     => false,
+            'return_url' => $return_url
           ];
         } else {
-//          $return_url = $this->getUrl('success.php?' . http_build_query($params));
-            $return_url     = env('WEB_URL') . '/process-request' . http_build_query($params);
-            $result = [
-                'status' => true,
-                'return_url' => $return_url
-            ];
+          //          $return_url = $this->getUrl('success.php?' . http_build_query($params));
+          $return_url = env('WEB_URL') . '/process-request' . http_build_query($params);
+          $result     = [
+            'status'     => true,
+            'return_url' => $return_url
+          ];
         }
-
+        
         return $result;
-//        echo "<html><body onLoad=\"javascript: window.top.location.href='" . $return_url . "'\"></body></html>";
-//        exit;
+        //        echo "<html><body onLoad=\"javascript: window.top.location.href='" . $return_url . "'\"></body></html>";
+        //        exit;
       }
     }
-
+    
     public function merchantPageNotifyFort($fortParams)
     {
       //send host to host
@@ -379,7 +389,7 @@
       } else {
         $gatewayUrl = $this->gatewayHost . 'FortAPI/paymentPage';
       }
-
+      
       $postData = array(
         'merchant_reference'  => $fortParams['merchant_reference'],
         'access_code'         => $this->accessCode,
@@ -392,45 +402,45 @@
         'customer_name'       => 'John Doe',
         'token_name'          => $fortParams['token_name'],
         'language'            => $this->language,
-//        'return_url'          => $this->getUrl('route.php?r=processResponse'),
+        //        'return_url'          => $this->getUrl('route.php?r=processResponse'),
         'return_url'          => env('WEB_URL') . '/process-payment?r=processResponse',
       );
-
+      
       if (!empty($merchantPageData['paymentMethod']) && $merchantPageData['paymentMethod'] == 'installments_merchantpage') {
         $postData['installments'] = 'YES';
         $postData['plan_code']    = $fortParams['plan_code'];
         $postData['issuer_code']  = $fortParams['issuer_code'];
         $postData['command']      = 'PURCHASE';
       }
-
+      
       if (isset($fortParams['3ds']) && $fortParams['3ds'] == 'no') {
         $postData['check_3ds'] = 'NO';
       }
-
+      
       //calculate request signature
       $signature             = $this->calculateSignature($postData, 'request');
       $postData['signature'] = $signature;
-
+      
       $debugMsg = "Fort Host2Host Request Parameters \n" . print_r($postData, 1);
       $this->log($debugMsg);
-
+      
       if ($this->sandboxMode) {
         $gatewayUrl = 'https://sbpaymentservices.payfort.com/FortAPI/paymentApi';
       } else {
         $gatewayUrl = 'https://paymentservices.payfort.com/FortAPI/paymentApi';
       }
-
+      
       $array_result = $this->callApi($postData, $gatewayUrl);
-
+      
       $debugMsg = "Fort Host2Host Response Parameters \n" . print_r($array_result, 1);
       $this->log($debugMsg);
-
+      
       return $array_result;
     }
-
+    
     /**
      * Send host to host request to the Fort
-     * @param array $postData
+     * @param array  $postData
      * @param string $gatewayUrl
      * @return mixed
      */
@@ -438,7 +448,7 @@
     {
       //open connection
       $ch = curl_init();
-
+      
       //set the url, number of POST vars, POST data
       $useragent = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0";
       curl_setopt($ch, CURLOPT_USERAGENT, $useragent);
@@ -459,24 +469,24 @@
       curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 0); // The number of seconds to wait while trying to connect
       //curl_setopt($ch, CURLOPT_TIMEOUT, Yii::app()->params['apiCallTimeout']); // timeout in seconds
       curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($postData));
-
+      
       $response = curl_exec($ch);
-
+      
       //$response_data = array();
       //parse_str($response, $response_data);
       curl_close($ch);
-
+      
       $array_result = json_decode($response, true);
-
+      
       if (!$response || empty($array_result)) {
         return false;
       }
       return $array_result;
     }
-
+    
     /**
      * calculate fort signature
-     * @param array $arrData
+     * @param array  $arrData
      * @param string $signType request or response
      * @return string fort signature
      */
@@ -487,21 +497,21 @@
       foreach ($arrData as $k => $v) {
         $shaString .= "$k=$v";
       }
-
+      
       if ($signType == 'request') {
         $shaString = $this->SHARequestPhrase . $shaString . $this->SHARequestPhrase;
       } else {
         $shaString = $this->SHAResponsePhrase . $shaString . $this->SHAResponsePhrase;
       }
       $signature = hash($this->SHAType, $shaString);
-
+      
       return $signature;
     }
-
+    
     /**
      * Convert Amount with dicemal points
      * @param decimal $amount
-     * @param string $currencyCode
+     * @param string  $currencyCode
      * @return decimal
      */
     public function convertFortAmount($amount, $currencyCode)
@@ -512,7 +522,7 @@
       $new_amount    = round($total, $decimalPoints) * (pow(10, $decimalPoints));
       return $new_amount;
     }
-
+    
     public function castAmountFromFort($amount, $currencyCode)
     {
       $decimalPoints = $this->getCurrencyDecimalPoints($currencyCode);
@@ -520,7 +530,7 @@
       $new_amount = round($amount, $decimalPoints) / (pow(10, $decimalPoints));
       return $new_amount;
     }
-
+    
     /**
      *
      * @param string $currency
@@ -543,19 +553,19 @@
       }
       return $decimalPoint;
     }
-
+    
     public function getUrl($path)
     {
       $scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https://' : 'http://';
       $url    = $scheme . $_SERVER['HTTP_HOST'] . $this->projectUrlPath . '/' . $path;
       return $url;
     }
-
+    
     public function generateMerchantReference()
     {
       return rand(0, getrandmax());
     }
-
+    
     /**
      * Log the error on the disk
      */
@@ -568,13 +578,13 @@
         ftruncate($fp, 0);
         fclose($fp);
       }
-
+      
       $myfile = fopen($file, "a+");
       fwrite($myfile, $messages);
       fclose($myfile);
     }
-
-
+    
+    
     /**
      *
      * @param type $po payment option
@@ -599,7 +609,7 @@
           return '';
       }
     }
-
+    
     /**
      * @param string $merchantIdentifier
      */
@@ -607,7 +617,7 @@
     {
       $this->merchantIdentifier = $merchantIdentifier;
     }
-
+    
     /**
      * @param string $accessCode
      */
@@ -615,7 +625,7 @@
     {
       $this->accessCode = $accessCode;
     }
-
+    
     /**
      * @param string $SHARequestPhrase
      */
@@ -623,7 +633,7 @@
     {
       $this->SHARequestPhrase = $SHARequestPhrase;
     }
-
+    
     /**
      * @param string $SHAResponsePhrase
      */
@@ -631,7 +641,7 @@
     {
       $this->SHAResponsePhrase = $SHAResponsePhrase;
     }
-
+    
     /**
      * @param $amount
      */
@@ -639,7 +649,7 @@
     {
       $this->amount = $amount;
     }
-
+    
     /**
      * @param string $currency
      */
@@ -647,7 +657,7 @@
     {
       $this->currency = $currency;
     }
-
+    
     /**
      * @param string $customerEmail
      */
@@ -655,7 +665,7 @@
     {
       $this->customerEmail = $customerEmail;
     }
-
+    
     /**
      * @param string $itemName
      */
