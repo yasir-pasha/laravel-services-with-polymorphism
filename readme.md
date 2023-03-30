@@ -1,4 +1,4 @@
-## **How to use Polymorphism concept in laravel with example**
+## **How to use Polymorphism in laravel with example**
 
 This project contains Laravel Services examples. There are two services for Payment Gateway(PostPay, PayFort) and Product Feed(Google and Facebook)
 
